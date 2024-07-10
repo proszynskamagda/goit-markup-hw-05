@@ -500,6 +500,7 @@ button:hover button:focus {
   padding: 0 15px;
   display: flex;
   align-items: baseline;
+  gap: 80px;
 }
 .logo-p-container {
   margin-right: 120px;
@@ -571,4 +572,32 @@ button:hover button:focus {
   gap: 24px;
 }
 .subscribe-input {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: #2e2f42;
+}
+
+.subscribe-button {
+  background-color: #4d5ae5;
+  font-size: 16px;
+  font-family: "Roboto";
+  color: #ffffff;
+  letter-spacing: 4%;
+  weight: 500;
+  font-weight: 500;
+  line-height: 150%;
+  cursor: pointer;
+  padding: 8px 24px;
+}
+
+input::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 200%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  padding: 8px 16px;
 }
